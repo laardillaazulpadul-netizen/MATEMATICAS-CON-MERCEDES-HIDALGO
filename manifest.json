@@ -1,0 +1,23 @@
+{
+  "name": "¿Te ayudo con las mates? - HIROMERCHE",
+  "short_name": "HIROMERCHE",
+  "description": "Generador de ejercicios de matemáticas adaptado a LOMLOE Andalucía",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#f4f6f8",
+  "theme_color": "#1a73e8",
+  "icons": [
+    {
+      "src": "logo.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "logo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
