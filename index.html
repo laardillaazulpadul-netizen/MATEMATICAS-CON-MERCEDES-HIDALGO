@@ -5,11 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title id="app-title-tag">¿Te ayudo con las mates? - MERCEDES HIDALGO</title>
     
-    <!-- CONFIGURACIÓN DEL ICONO DE LA PESTAÑA (FAVICON) Y ACCESO DIRECTO MÓVIL -->
-    <link rel="icon" type="image/png" href="./logo.png">
-    <link rel="shortcut icon" type="image/png" href="./logo.png">
-    <link rel="apple-touch-icon" href="./logo.png">
-
+   <!-- ICONO DE ALTA RESOLUCIÓN PARA PANTALLA DE INICIO EN ANDROID Y IPHONE -->
+    <link rel="icon" type="image/png" sizes="192x192" href="logo.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="logo.png">
+    <link rel="apple-touch-icon" href="logo.png">
+    <link rel="apple-touch-icon-precomposed" href="logo.png">
+    
+    <!-- MODO APLICACIÓN NATIVA (PWA) PARA ANDROID -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="theme-color" content="#1a73e8">
     <style>
         :root {
             --primary-color: #1a73e8;
